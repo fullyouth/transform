@@ -1,0 +1,9 @@
+.transform{
+  overflow: hidden;
+  &__inactive{
+    position: absolute;
+    visibility: hidden;
+    height: 0;
+    z-index: -10;
+  }
+}
